@@ -1,0 +1,65 @@
+<!-- Group Members: Xiaoyu Sun, Andrew McDowell, Brahm Persaud -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Lato" rel="stylesheet">
+	<title>Play Blackjack!</title>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/script.js"></script>
+	</head>
+	
+	<body id="play_body" onload="placeBet()">
+	<div id="header">
+		<div id="headerNav">
+		<div id="back" class="nav"><a href="welcome.html"><-Home</a></div>
+		<div id="rules" class="nav"><a href="rules.html">Rules-></a></div>
+		</div>
+
+		<div >
+		<h1 id= "header_text">Blackjack</h1>
+		</div>
+
+
+	</div>
+
+	<div id="dealer">
+		<div >
+		<!--<div><p class="nav">Dealer</p></div><br>-->
+		<div id="dealer_card"><span><img src="images/poker_back.png" id="firstCardDealer" class="cards"></span><span><img src="images/poker_back.png" id="secondCardDealer" class="cards"></span></div>
+		
+		</div>
+		<br><div id="scoreDealer" class="score">0/21</div></br>
+	</div>
+	<div id="content_wrap">
+	<div id="chip"><div id="chip_text"></div></div>
+	<div id="totalMoney">Total Money: </div>
+	</div>
+	<div id="wrap_gametext">
+		<div id="gameText">
+			
+		</div>
+	</div>
+	<div id="player">
+		<div>
+		<!--<div><p class="nav">Player</p></div><br>-->
+		<div id="player_card"><span><img src="images/poker_back.png" id="firstCardPlayer" class="cards"></span><span><img src="images/poker_back.png" id="secondCardPlayer" class="cards"></span></div>
+		</div>
+		<br>
+		<div id="scorePlayer" class="score">0/21</div></br>
+
+		
+
+		<div id="playerButtons">
+			<button type="button" id="hit" >Hit</button><button type="button" id="start" onclick="startGame()">Start</button><button type="button" id="stand" >Stand</button>
+		</div>
+	</div>
+
+	</div>
+
+
+
+
+
+	</body>
+</html>

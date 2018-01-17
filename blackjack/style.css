@@ -1,0 +1,328 @@
+/* Group Members: Xiaoyu Sun, Andrew McDowell, Brahm Persaud */
+a{
+  text-decoration : none
+} 
+
+#header{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#header_text{
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 100;
+  padding-top: 0px;
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav{
+  
+  margin-top: -10px;
+ 
+}
+.nav a{
+  color:#FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Lato';
+  margin-top: -20px;
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-radius: 6px;
+  border-style: solid;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+
+
+
+.nav a:hover{
+
+  color: #0c6339;
+  background-color:#FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+#back{
+  float: left;
+  
+}
+
+#rules{
+  float: right;
+}
+
+#dealer{
+  text-align: center;
+  margin-top: 5px;
+}
+
+#player{
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+
+
+#playerButtons button:hover{
+  color: #0c6339;
+  background-color:#FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#playerButtons button{
+  background-color: #0c6339;
+  text-decoration: none;
+  font-family: 'Lato';
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-radius: 12px;
+  border-style: solid;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  color:#FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+}
+
+#wrap_gametext{
+  width: 100%;
+  margin-top: -70px;
+}
+
+
+#gameText{
+  
+  font-size: 20px;
+  color:#FFFFFF;
+  font-family: 'Lato';
+  width: 400px;
+  height: 24px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px; 
+
+}
+
+#chip{
+  float: left;
+  height: 140px;
+  width: 140px;
+  background-image: url("images/chip2.png");
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  
+}
+
+#chip_text{
+  color:#FFFFFF;
+  font-family: 'Lato'; 
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle; 
+  height: 20px;
+  width: 140px;
+  margin-top: 55px;
+}
+
+
+#totalMoney{
+  
+  color:#FFFFFF;
+  font-family: 'Lato';
+  font-size: 20px;
+
+  width: 140px;
+  height: 150px;
+  margin-top: 70px;
+  float: right;
+  margin-right: 10%;
+}
+
+
+
+
+#content_wrap{
+  margin-top: -70px;
+  width: 100%;
+  height: 150px;
+}
+
+
+#play_body{
+  background-color: #0c6339;
+}
+#dealer_card{
+  width: 100%;
+
+}
+#player_card{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.cards{
+  display: inline-block;
+}
+.cards img{
+  width: 150px;
+  height: 208px;
+}
+.score{
+  color:#FFFFFF;
+  font-family: 'Lato'; 
+  font-style: bold; 
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 2px;
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -5px;
+}
+
+#body_welcome{
+  background-image: url("images/bg_welcome.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#welcome_text {
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 100;
+  margin-top: 150px;
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#welcome_button{
+  margin-top: 90px;
+}
+
+#welcome_button button{
+  background-color: #0c6339;
+  text-decoration: none;
+  font-family: 'Lato';
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-radius: 12px;
+  border-style: solid;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  color:#FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#welcome_button button:hover{
+  color: #0c6339;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#rules_body{
+  background-color: #0c6339;
+  color:#FFFFFF;
+  
+} 
+
+#rules_title{
+  text-align: center;
+}
+
+#rules_title h1{
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 100;
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+#rules_button button{
+  background-color: #0c6339;
+  text-decoration: none;
+  font-family: 'Lato';
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-radius: 12px;
+  border-style: solid;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  color:#FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#rules_button button:hover{
+  color: #0c6339;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#rules_text{
+  margin-left: 80px;
+  font-family: 'Lato';
+  
+}
+
+#welcome_button a:visited{
+  color:#FFFFFF;
+ }
+
+ #welcome_button a:hover{
+  color:#0c6339;
+ }
+
+/*.card {
+  
+  font-family: 'Lato', sans-serif;
+  background-image: "images/bg_welcome.jpg";
+  border-radius: 2px;
+  height: 500px;
+  margin: auto;
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  
+}
+
+.button {
+    display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 30px;
+      background-color: #fff;
+      color: #646464;
+    text-align: center;
+    
+}*/
+
+#totalBet{
+  border-style: solid;
+  border-width: 2px;
+}
+
+#hit{
+  visibility: hidden;
+}
+
+#stand{
+  visibility: hidden;
+}
