@@ -1787,11 +1787,11 @@ Header bookmark
   position: absolute;
   right: 0;
   top:0;
-  transition: all 0.9s ease 0s;
+  transition: all 0.3s ease 0s;
   width: 100%;
   z-index: 20;
 }
-.overlay3 i {
+/*.overlay3 i {
   border: 1px solid #fff;
   border-radius: 50%;
   color: #000;
@@ -1813,6 +1813,20 @@ Header bookmark
   background-color: #ccc;
   transition: 1s;
   border: 1px solid #ccc;
+}*/
+.hover-text{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  top:40%;
+
+}
+
+.hover-text-small{
+
+  font-size: 14px;
+
 }
 /* ------------------------------
   6. Instagram widget style
