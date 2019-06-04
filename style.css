@@ -4111,6 +4111,10 @@ footer3
   margin-left: 14px;
 }
 
+.span_icon{
+  width: 30px;
+}
+
 ul.circle-ul {
     list-style-type: circle;
 }
