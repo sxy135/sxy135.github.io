@@ -4101,21 +4101,10 @@ footer3
 }
 
 #homebg{
-
+  background-image: url("img/homebg.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 460px;
 }
-
-#home_iframe { 
-  position: absolute;
-  margin-top: -80px;
-  float: left; 
-  clear: both; 
-  width: 100%; 
-height: 400px;
-
-  }
 
 #capstone_title{
   font-size: 36px;
