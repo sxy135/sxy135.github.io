@@ -2867,6 +2867,18 @@ sub.duration {
 /*--------------------------------------
   20. Single project
 ----------------------------------------*/
+
+.info_text {
+  text-indent: 7.7em;
+  display: inline-block;
+ 
+}
+
+.icons_label{
+  width: 66px;
+  display: inline-block;
+}
+
 .project-meta-wrapper {
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -2907,7 +2919,8 @@ sub.duration {
 h3.owner-text {
   color: #333;
   display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
   margin-bottom: 30px;
   padding-bottom: 10px;
   position: relative;
@@ -2922,6 +2935,7 @@ h3.owner-text::before {
   position: absolute;
   width: 50%;
 }
+
 .single-portfolio-meta > li {
   color: #666;
   font-size: 12px;
