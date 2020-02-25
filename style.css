@@ -2871,7 +2871,7 @@ sub.duration {
 .info_text {
   text-indent: 7.7em;
   display: inline-block;
- 
+
 }
 
 .icons_label{
@@ -4137,6 +4137,24 @@ height: 400px;
 #capstone_title{
   font-size: 36px;
   margin-left: 14px;
+}
+ 
+
+.input_buttons{
+  border: medium none;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  padding: 0;
+  width: 86px;
+  border: 1px solid #e5e5e5;
+  height: 28px;
+  border-radius: 4px;
+}
+
+.input_buttons:hover {
+
+  background-color: #333333;
+  color: #FFFFFF;
 }
 
 .span_icon{
