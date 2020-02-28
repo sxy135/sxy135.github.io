@@ -36,28 +36,41 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+        <!-- Password js -->
+        <script type="text/javascript">
+            function checkPswd() {
+                var confirmPassword = "kma2019";
+                var password = document.getElementById("pswd").value;
+                if (password == confirmPassword) {
+                     window.location="kmawithpsw.html";
+                }
+                else{
+                    alert("Passwords do not match.");
+                }
+            }
+        </script>
 
-		<!-- Start main wrapper -->
-		<div class="wrapper">
-			<!-- Header area start -->
+        <!-- Start main wrapper -->
+        <div class="wrapper">
+            <!-- Header area start -->
             <header class="header-area header-style-one intelligent-header">
                 <div class="header-middle-area">
                     <div class="container">
                         <div class="row">
-							<div class="col-md-3  col-sm-2 col-xs-6">
-								<div class="logo">
-									<h3><a href="index.html">< Home</a></h3>
-								</div>
-							</div>
-							<div class="col-md-9 col-sm-10 hidden-xs hidden-sm">
+                            <div class="col-md-3  col-sm-2 col-xs-6">
+                                <div class="logo">
+                                    <h3><a href="index.html">< Home</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-10 hidden-xs hidden-sm">
                                 <div class="menu-area">
-    								<nav>
-    									<ul class="main-menu clearfix">
+                                    <nav>
+                                        <ul class="main-menu clearfix">
                                             <li><a href="index.html"><span></span></a></li>                         
                                         </ul>
                                     </nav>
-								</div>
-							</div>
+                                </div>
+                            </div>
                             <div class="clearfix"></div>
                             <!-- START OF MOBILE MENU AREA -->
                             <div class="mobile-menu-area clearfix hidden-md hidden-lg">
@@ -76,21 +89,34 @@
                 </div>                
             </header>
             <div class="intelligent-header-space"></div>
-			<!-- Header area End -->        
-			<!-- Main content start -->
-			<div class="content">
+            <!-- Header area End -->        
+            <!-- Main content start -->
+            <div class="content">
                 <!-- Single Project area -->
                 <div class="single-project-area shopno-standard-row">
                     <div class="container">
                         <div class="row">
                         <h3 class="owner-text" id="capstone_title"><strong>KMA Redesign - <br> Improve efficiency and lower learning efforts of a complicated online data analytics system </strong></h3><br>
                             <div class="col-lg-12 col-md-12">
-                                     <a href="img/kma/kmalarge.png" ><img src="img/kma/kmalarge.png"  width="100%" alt=""></a> 
+                                     <a href="img/nielsen/kmalarge.png" ><img src="img/nielsen/kmalarge.png"  width="100%" alt=""></a> 
                                      <br><br><br>                      
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="project-meta-wrapper">
                                      <br> 
+                                    
+                                    <!-- Password input -->
+                                    <div>
+                                        <h3 class="owner-text">Password</h3>
+                                        <p>Sorry, due to the NDA agreement, I can only show limited information in public. </p>
+                                        <p>If you are interested in this project, welcome to <a href="mailto:sunxiaoyu135@hotmail.com">email me</a> (sunxiaoyu135@hotmail.com) to get the password to view the project details.</p>
+                                        <form>
+                                            <label for="pswd"><p>Enter password: &nbsp; </p> </label>
+                                            <input type="password" id="pswd">
+                                            <input class="input_buttons" type="button" value="Submit" onclick="checkPswd();" />
+                                        </form>
+                                    </div> <br><br> 
+
                                     <div class="portfolio-owner-info">
                                         <h3 class="owner-text">Project Overview</h3>
                                         <ul>
@@ -110,78 +136,40 @@
                                         <br><br> 
                                     </div>
 
-                                     <div class="single-project-description"><br>
-                                  
-                                        <h3 class="owner-text">What is KMA? </h3>
-                                        <p>KMA is short for Key Measures Analyzer. It is a powerful internal tool for analysts to understand the potential success of a product through comparisons. The analysts compose competitive sets of the study data and then run comparisons to get the prediction results.</p>
-                                        <div class="pimages"><img src="img/kma/kmaflow.png" width="60%" ></div><br>
-                                        <p>Why do we need comparisons in KMA? Because we can't tell if the raw data is good or bad without context.</p> 
-                                        <p>For example, if a company wants to launch a new type of coke. They might reach out to Nielsen and do marketing researches. In the end, they may get a potential customer satisfaction rate of 80%. But what does 80% indicate? We can't tell without comparing this with other data. If we could know the average satisfaction rate of coke is about 70%, then we can defer that product is likely to have success in the market. Of course, comparisons in KMA are much more complicated than this, but this can reflect how KMA works in general. </p>
-                                        <br><br>
-                                    </div>
+                                    
+                        
 
                                        <div class="single-project-description"><br>
                                   
                                         <h3 class="owner-text">Project Timeline</h3>
-                                        <div class="pimages"><img src="img/kma/process.png" width="100%" ></div><br>
+                                        <div class="pimages"><img src="img/nielsen/process.png" width="100%" ></div><br>
 
-                                        <p></p>
-                                        
-                                        <p></p>
-
+                                        <p>This project has three phases. We started with the background research, and then we tried to define the problems by walking through the current system and getting initial feedback from the user panel. </p>
+                                        <p>Then, I had three rounds of design iteration to evolve from wireframe to high-fidelity prototype. In between each round, I would present my design to the product manager, the design team, the development team, and the user panel to get helpful feedback. </p>
+                                        <p>At present, we are in the third phase of developing the system, and I am supporting the development team to finalize screens for MVP.</p>
                                                                                 
                                         <br><br><br>
                                     </div>
-                                     <div class="single-project-description">
-                                        <h3 class="owner-text">Problems of Current KMA</h3><br>
-                                        <p>To figure out the problems of the current KMA, we went through the KMA pages, and we also had an initial feedback session with affinity diagramming to get insights from users. Finally, we summarized the problems of current KMA as below: </p>
-                                        <div class="pimages"><img src="img/kma/problems2.png" width="56%" ></div><br>
 
-                                        <p>Talk about the users?</p>
-                                    </div><br><br>
-
-                                     
-                                     
-                                    
-                                    <div class="single-project-description">
-                                        <h3 class="owner-text">Final Design </h3><br>
-                                        
-                                        
-                                        <br><br><br>
-                                    </div>
-
-                                     <div class="single-project-description">
-                                        <h3 class="owner-text">Impacts </h3><br>
-                                        <p><strong>1. Consistency with Nielsen design system</strong></p>
-                                        <p>before/ after? word cloud?</p>
-        
-                                        <br><br><br>
-                                    </div>
-
-                                      <div class="single-project-description">
-                                        <h3 class="owner-text">Reflection </h3><br>
-        
-                                        <br><br><br>
-                                    </div>
-                         
+                        
                                                                         
                             </div>        
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="post-navigation-wrapper">
-                                    <a  href="capstone.html" class="post-navigation"><i class="fa fa-angle-left"></i> Previous Project</a>
+                                    <a  class="post-navigation"><i class="fa fa-angle-left"></i> Previous Project</a>
                                     
-                                    <a href="counselink.html" class="post-navigation">Next Project <i class="fa fa-angle-right"></i></a>
+                                    <a href="capstone.html" class="post-navigation">Next Project <i class="fa fa-angle-right"></i></a>
                                 </div>                                
                             </div>
                         </div>
                     </div>                  
                 </div>                
                 <!-- Single Project area end -->
-			</div>
-			<!-- Main content end -->
-			<!-- Footer area start -->
+            </div>
+            <!-- Main content end -->
+            <!-- Footer area start -->
          <footer class="footer-area dark-bg footer-6">
                 <div class="container">
                     <div class="row">
@@ -207,8 +195,8 @@
                     <span></span>
                 </div>
             </div><!--#preloader -->
-		</div>
-		<!-- End main wrapper -->
+        </div>
+        <!-- End main wrapper -->
 
         <!-- All JS Files -->
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
