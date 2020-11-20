@@ -1,1 +1,10 @@
-var _0xc3a0=["\x6B\x6D\x61\x32\x30\x31\x39","\x76\x61\x6C\x75\x65","\x70\x73\x77\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x6B\x6D\x61\x77\x69\x74\x68\x70\x73\x77\x2E\x68\x74\x6D\x6C","\x50\x61\x73\x73\x77\x6F\x72\x64\x73\x20\x64\x6F\x20\x6E\x6F\x74\x20\x6D\x61\x74\x63\x68\x2E"];function checkPswd(){var _0x92cdx2=_0xc3a0[0];var _0x92cdx3=document[_0xc3a0[3]](_0xc3a0[2])[_0xc3a0[1]];if(_0x92cdx3== _0x92cdx2){window[_0xc3a0[4]]= _0xc3a0[5]}else {alert(_0xc3a0[6])}}
+function checkPswd() {
+          var confirmPassword = "KMA 2019";
+          var password = document.getElementById("pswd").value;
+          if (password == confirmPassword) {
+              window.location.href="kmawithpsw.html";
+          }
+          else{
+              alert("Passwords do not match.");
+          }
+      }
